@@ -1,7 +1,23 @@
-### Calibration data for the electricity nexus of the IMACLIM-R model
+# Calibration data for the electricity nexus of the IMACLIM-R model
+
+## General architechture of the data
+
+The data in csv format is either 1x1 matrix or a 12x1 matrix. When data is 1x1, the value corresponds to the world estimate. Regional estimates are presented in a 12x1 matrix. The order of appearance for the twelve IMACLIM-R regions in the following:
+1) United States of America
+2) Canada
+3) Europe
+4) OECD Pacific
+5) Former Soviet Union
+6) China
+7) India
+8) Brazil
+9) Middle East
+10) Africa
+11) Rest of Asia
+12) Rest of Latin America
 
 
-The list of the available technology, with their full name, short name and description
+## List of the available technologies, with their full name, short name and description
 
 | Short name        | Full name     | Dispatchable?| Description |
 |--------------|-----------|:------------:|------------|
@@ -25,3 +41,5 @@ The list of the available technology, with their full name, short name and descr
 |RPV|Rooftop PV|      |  |
 |BIGCC|Biomass integrated gasification combined cycle|   X   |  |
 |BIGCCS|Biomass integrated gasification combined cycle with sequestration|   X   |  |
+
+## Usual assumptions
