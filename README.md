@@ -1,6 +1,6 @@
 # Calibration data for the electricity nexus of the IMACLIM-R model
 
-## General architechture of the data
+## General architecture of the data
 
 The data in csv format is either 1x1 matrix or a 12x1 matrix. When data is 1x1, the value corresponds to the world estimate. Regional estimates are presented in a 12x1 matrix. The order of appearance for the twelve IMACLIM-R regions in the following:
 1) United States of America
