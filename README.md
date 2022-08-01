@@ -1,6 +1,6 @@
-# Calibration data for the electricity nexus of the IMACLIM-R model
+# Calibration data for the electricity nexus of the IMACLIM-R model 
 
-## General architecture of the data
+## General architecture of the data 
 
 The data in csv format is either 1x1 matrix or a 12x1 matrix. When data is 1x1, the value corresponds to the world estimate. Regional estimates are presented in a 12x1 matrix. The order of appearance for the twelve IMACLIM-R regions in the following:
 1) United States of America
@@ -45,4 +45,7 @@ The data in csv format is either 1x1 matrix or a 12x1 matrix. When data is 1x1, 
 |BIGCC|Biomass integrated gasification combined cycle|   X   |  |
 |BIGCCS|Biomass integrated gasification combined cycle with sequestration|   X   |  |
 
-## Usual assumptions
+[![DOI](https://zenodo.org/badge/498011120.svg)](https://zenodo.org/badge/latestdoi/498011120)
+
+
+
