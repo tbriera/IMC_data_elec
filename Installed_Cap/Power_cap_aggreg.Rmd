@@ -1,0 +1,12 @@
+---
+title: "Power_cap_aggreg_FF"
+output: Power_cap
+---
+This scripts computes 2014 fossil-fuel powered electricity generation capacity. The world benchmark capacity comes from the World Energy Outloook 2019 (IEA, 2018) statistics ("Installed power generation capacity by source in the Stated Policies Scenario, 2000-2040"). The Global Power Plant Database (Global Energy Observatory 2018) is used for coal, gas and oil capacity in 2021. 
+To get 2021 capacity a single method sis employed for each of the three fuel:
+Data of operating capacity from the Global Power Plant Database (GPPD) is aggregated by IMACLIM-R regions. A correction (uniform accross regions) is added so the total world capacity from the GPPD matches IEA (2020) world capacity.
+
+To get 2014 capacity, two different methods are used:
+- for coal, since data on plant retirements is widely accessible (Global Coal Plant Tracker), the cumulated retired capacity between 2021 and 2015 is computed and subtracted to 2021's data
+- for gas and oil, the world mean variation of capacity between 2014 and 2021 is computed from IEA (2020) and applied to 2021 capacity.
+
