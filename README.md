@@ -16,6 +16,9 @@ The data in csv format is either 1x1 matrix or a 12x1 matrix. When data is 1x1, 
 11) Rest of Asia
 12) Rest of Latin America
 
+<img src="IMC_region.png"
+     style="float: left; margin-right: 10px;" />
+
 
 ## List of the available technologies, with their full name, short name and description
 
